@@ -1,0 +1,8 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/springbootpostgresdb
+    username: postgres
+#    This is just using postgres running on local docker... so don't really care if pw is exposed.
+#    It's a demo project anyway... who wants to steal this data
+    password: password
+    pool-size: 30

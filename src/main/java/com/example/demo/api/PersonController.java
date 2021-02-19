@@ -20,7 +20,7 @@ public class PersonController {
     }
 
     @PostMapping
-    public void addPerson(@RequestBody Person person){
+    public void addPerson( @RequestBody Person person){
         personService.addPerson(person);
     }
 
